@@ -154,3 +154,11 @@ li {
 .right li {
   align-content: flex-end;
 }
+.nav-apps {
+  color: transparent;
+  width: 10px;
+  background-image: url("../images/apps.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
