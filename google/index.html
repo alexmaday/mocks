@@ -2,59 +2,60 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Koogle!</title>
+    <title>Koogle</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
-    <nav>
-      <div class="left">
-        <ul>
-          <li>About</li>
-          <li>Store</li>
-        </ul>
-      </div>
-      <div class="right">
-        <ul>
-          <li>Gmail</li>
-          <li>Images</li>
-          <li class="nav-apps">Apps</li>
-          <li class="nav-userprofile">User Profile</li>
-        </ul>
-      </div>
-    </nav>
-    <main id="container">
-      <header id="brand-koogle">
-        <img src="images/koogle-brand.png" alt="Logo for the Koogle Brand" />
-      </header>
-      <section id="search-interface">
-        <div id="ui-search">
-          <p>
-            <input type="text" />
-          </p>
-          <p id="ui-buttons">
-            <button type="submit">Koogle Search</button>
-            <button class="btn-lucky">I'm Feeling Lucky</button>
-          </p>
+    <div class="container">
+      <nav>
+        <div class="left">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+          </ul>
         </div>
-      </section>
-    </main>
-    <footer>
-      <div class="contact">
-        <ul>
-          <li>Advertising</li>
-          <li>Business</li>
-        </ul>
-      </div>
-      <div class="legal">
-        <ul>
-          <li>Privacy</li>
-          <li>Terms</li>
-          <li>Settings</li>
-        </ul>
-      </div>
-    </footer>
+        <div class="right">
+          <ul>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#">Apps</a></li>
+            <li><a href="#">Account</a></li>
+          </ul>
+        </div>
+      </nav>
+      <main>
+        <img src="images/koogle-brand.png" alt="Koogle Logo image" />
+        <div id="search">
+          <p><input id="searchfield" type="text" /></p>
+        </div>
+        <div id="button-container">
+          <input type="submit" id="button-search" value="Google Search" />
+          <input type="button" id="button-lucky" value="I'm Feeling Lucky" />
+        </div>
+      </main>
+      <footer>
+        <div class="left">
+          <ul>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
